@@ -1,0 +1,10 @@
+@mixin spAround {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+#boxx { @include spAround();
+  
+}
